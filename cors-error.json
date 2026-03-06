@@ -1,0 +1,11 @@
+{
+  "stack": "AccessDenied: Access Denied\n    at AwsRestXmlProtocol.handleError (D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@aws-sdk\\core\\dist-cjs\\submodules\\protocols\\index.js:1814:27)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async AwsRestXmlProtocol.deserializeResponse (D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@smithy\\core\\dist-cjs\\submodules\\protocols\\index.js:334:13)\n    at async D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@smithy\\core\\dist-cjs\\submodules\\schema\\index.js:26:24\n    at async D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@aws-sdk\\middleware-sdk-s3\\dist-cjs\\index.js:385:20\n    at async D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:254:46\n    at async D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@aws-sdk\\middleware-sdk-s3\\dist-cjs\\index.js:62:28\n    at async D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@aws-sdk\\middleware-sdk-s3\\dist-cjs\\index.js:89:20\n    at async D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:5:26\n    at async main (D:\\websiteds\\Learn-Plus-main\\Learn-Plus-main1\\check_cors2.ts:20:26)",
+  "$fault": "client",
+  "$response": {},
+  "$metadata": {},
+  "name": "AccessDenied",
+  "message": "Access Denied",
+  "Code": "AccessDenied",
+  "RequestId": "JX9227ACZAYJZSVR",
+  "HostId": "ihg8/5q7+R5A2wKwBuGs/i0qySrjJFbzAxF6aklMJMk1d0hQ141uKcxzNQl2prgGyYtI7JET4Es="
+}
