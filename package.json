@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "set NODE_OPTIONS='--dns-result-order=ipv4first' && next dev --turbopack",
-    "build": "next build",
+    "build": "node -e \"const fs=require('fs'); fs.rmSync('.next', {recursive:true, force:true})\" && next build",
     "start": "set NODE_OPTIONS='--dns-result-order=ipv4first' && next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
